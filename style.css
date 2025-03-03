@@ -41,7 +41,7 @@ body{
 }
 
 .background{
-    background: url(./BGs/BG1.webp);
+    background: url(./BG1.webp);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -785,7 +785,7 @@ input[type = 'checkbox']{
     }
 
     .background{
-        background: url(./BGs/BGMobile1.webp);
+        background: url(./BGMobile1.webp);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
