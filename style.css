@@ -902,6 +902,13 @@ input[type = 'checkbox']{
     .specbutton__container button{
         font-size: 1rem;
     }
+
+    #specifics{
+        position: absolute;
+        top: 10%;
+        left: 40%
+        transform: translate(-40%);
+    }
 }
 
 @media (max-width: 405px) {
