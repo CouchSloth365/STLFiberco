@@ -896,18 +896,12 @@ input[type = 'checkbox']{
     #specifics{
         height: 8%;
         width: 100%;
-        transform: translateY(-40px);
+        transform: translateY(80px);
     }
 
     .specbutton__container button{
         font-size: 1rem;
-    }
-
-    #specifics{
-        position: absolute;
-        top: 10%;
-        left: 40%
-        transform: translate(-40%);
+        margin-bottom: 50px;
     }
 }
 
