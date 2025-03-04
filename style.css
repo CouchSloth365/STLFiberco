@@ -26,6 +26,7 @@
 }
 
 body{
+    padding-bottom: env(safe-area-inset-bottom);
     overflow: hidden;
     margin: 0;
     padding: 0;
