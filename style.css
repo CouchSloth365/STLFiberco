@@ -823,6 +823,24 @@ input[type = 'checkbox']{
         white-space: normal;
     }
 
+    .plans.ten{
+        min-height: 100%;
+        height: auto;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+
+    .plans.five{
+        min-height: 100%;
+        height: auto;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+
+    .checkbox{
+        margin-bottom: 50px;
+    }
+
     .plans:hover .text__main{
         opacity: 0.15;
     }
