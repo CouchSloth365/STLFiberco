@@ -1,21 +1,21 @@
 @font-face {
     font-family: Degular;
-    src: url(./degular-font-family-1738619096-0/DegularDisplay-Black.otf);
+    src: url(./Fonts/DegularDisplay-Black.otf);
 }
 
 @font-face {
     font-family: Degular-Semi;
-    src: url(./degular-font-family-1738619096-0/Degular-Semibold.otf);
+    src: url(./Fonts/Degular-Semibold.otf);
 }
 
 @font-face {
     font-family: Degular-Regular;
-    src: url(./degular-font-family-1738619096-0/Degular-Regular.otf);
+    src: url(./Fonts/Degular-Regular.otf);
 }
 
 @font-face {
     font-family: Degular-Thin;
-    src: url(./degular-font-family-1738619096-0/Degular-Regular.otf);
+    src: url(./Fonts/Degular-Regular.otf);
 }
 
 *{
