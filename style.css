@@ -795,8 +795,8 @@ input[type = 'checkbox']{
     }
 
     .main{
-        margin-bottom: 50px;
-        font-size: 2.5rem;
+        margin-bottom: 70px;
+        font-size: 2rem;
     }
 
     .plans__header span{
@@ -811,9 +811,14 @@ input[type = 'checkbox']{
         font-size: 2rem;
     }
 
-    .plans__buttons input, label, button{
+    .plans__buttons input, label{
         font-size: 1.3rem;
         letter-spacing: 0.1px;;
+    }
+
+    .plans__buttons button{
+        font-size: 2rem;
+        margin-bottom: 50px;
     }
 
     .about h1{
@@ -831,7 +836,8 @@ input[type = 'checkbox']{
     }
 
     .btncontainer{
-        bottom: -2%;
+        bottom: 5%;
+        font-size: 2rem;
     }
 
     .text__main h1, span{
@@ -849,6 +855,11 @@ input[type = 'checkbox']{
         height: 8%;
         width: 100%;
         transform: translateY(-40px);
+    }
+
+    .specbutton__container{
+        margin-bottom: 50px;
+        font-size: 2rem;
     }
 }
 
