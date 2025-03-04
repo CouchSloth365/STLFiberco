@@ -789,7 +789,7 @@ input[type = 'checkbox']{
 
     .background{
         background: url(./BGMobile1.webp);
-        background-size: cover;
+        background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -896,12 +896,12 @@ input[type = 'checkbox']{
     #specifics{
         height: 8%;
         width: 100%;
-        transform: translateY(50px);
+        transform: translateY(70px);
     }
 
     .specbutton__container button{
         font-size: 1rem;
-        transform: translateY(20px);
+        transform: translateY(50px);
     }
 }
 
