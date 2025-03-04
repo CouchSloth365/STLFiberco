@@ -574,6 +574,7 @@ input[type = 'checkbox']{
 
 @media (max-width: 1000px) {
     .body{
+        overflow: clamp;
         background-size: initial;
         justify-content: space-around;
     }
@@ -782,6 +783,10 @@ input[type = 'checkbox']{
     .regions{
         font-size: 5rem;
         margin-top: 160px;
+    }
+
+    .main{
+        bottom: 5%;
     }
 
     .background{
