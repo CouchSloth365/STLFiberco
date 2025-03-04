@@ -899,8 +899,8 @@ input[type = 'checkbox']{
         transform: translateY(-40px);
     }
 
-    specbutton__container button{
-        font-size: 0.8rem;
+    .specbutton__container button{
+        font-size: 1rem;
     }
 }
 
