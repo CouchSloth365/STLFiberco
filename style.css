@@ -440,7 +440,7 @@ input[type = 'checkbox']{
 .specbutton__container{
     position: absolute;
     bottom: 5%;
-    width: 40%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
@@ -826,7 +826,7 @@ input[type = 'checkbox']{
     }
 
     .checkbox{
-        margin-bottom: 120px;
+        margin-bottom: 90px;
     }
 
     .plans:hover .text__main{
@@ -852,7 +852,7 @@ input[type = 'checkbox']{
     .plans__buttons{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: end;
         padding: 10px;
     }
 
@@ -902,11 +902,8 @@ input[type = 'checkbox']{
         transform: translateY(-40px);
     }
 
-    .specbutton__container{
-        margin-bottom: 50px;
-        font-size: 1rem;
-        display: flex;
-        justify-content: space-between;
+    specbutton__container button{
+        font-size: 0.8rem;
     }
 }
 
