@@ -261,7 +261,6 @@ document.addEventListener(`DOMContentLoaded`, () => {
     function forStartButton(regions, main, wrapper){
         const start = document.getElementById(`start`)
         if(start){
-            const body = document.querySelector('.body')
             start.addEventListener(`click`, () => {
                 regions.forEach(regions => {
                     regions.style.opacity = `0`
