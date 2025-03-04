@@ -781,12 +781,12 @@ input[type = 'checkbox']{
 
 @media (max-width: 470px) {
     .regions{
-        font-size: 5rem;
+        font-size: 4.5rem;
         margin-top: 160px;
     }
 
     .main{
-        bottom: 5%;
+        margin-bottom: 50px;
     }
 
     .background{
