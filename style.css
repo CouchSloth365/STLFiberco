@@ -879,7 +879,8 @@ input[type = 'checkbox']{
 
     .btncontainer{
         bottom: 5%;
-        font-size: 2rem;
+        font-size: 1rem;
+        transdorm: translateY(-90px);
     }
 
     .text__main h1, span{
@@ -896,12 +897,12 @@ input[type = 'checkbox']{
     #specifics{
         height: 8%;
         width: 100%;
-        transform: translateY(100px);
+        transform: translateY(140px);
     }
 
     .specbutton__container button{
         font-size: 1rem;
-        transform: translateY(90px);
+        transform: translateY(110px);
     }
 }
 
