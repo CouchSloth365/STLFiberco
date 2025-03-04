@@ -270,24 +270,19 @@ document.addEventListener(`DOMContentLoaded`, () => {
                 main.style.opacity = `0`
                 main.style.zIndex = `-1`
 
-                setTimeout(() => {
-                    body.style.transition = 'opacity 0.2s ease-in-out'
-                    body.style.opacity = '0'
-                }, 300);
-
                 wrapper.style.transition = 'opacity 0.5s ease-in-out'
                 wrapper.style.opacity = '0'
 
                 setTimeout(() => {
                     wrapper.innerHTML = ''
-                }, 400);
+                }, 500);
 
                 setTimeout(() => {
                     if(wrapper){
                         wrapper.style.opacity = `1`
                         wrapper.style.zIndex = `1`
                     }
-                }, 400)
+                }, 500)
 
                 setTimeout( () => {
                     loadExternalHTML();
