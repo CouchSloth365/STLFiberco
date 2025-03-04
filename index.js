@@ -275,8 +275,10 @@ document.addEventListener(`DOMContentLoaded`, () => {
                     body.style.opacity = '0'
                 }, 300);
 
+                wrapper.style.transition = 'opacity 0.5s ease-in-out'
+                wrapper.style.opacity = '0'
+
                 setTimeout(() => {
-                    wrapper.style.opacity = '0'
                     wrapper.innerHTML = ''
                 }, 400);
 
