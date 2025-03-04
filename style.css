@@ -799,19 +799,21 @@ input[type = 'checkbox']{
         font-size: 2rem;
     }
 
-    .plans{
+    .wrapper{
         display: flex;
         flex-direction: column;
-        position: relative;
+        height: 80%;
     }
 
     .plans__use{
-        position: absolute;
-        justify-content: space-around;
-        left: 3%;
-        text-align: left;
-        opacity: 0;
-        transition: opacity 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .plans__buttons button{
+        font-size: 1.2rem;
     }
 
     .plans:hover .text__main{
