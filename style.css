@@ -823,14 +823,15 @@ input[type = 'checkbox']{
         white-space: normal;
     }
 
-    .plans__buttons.ten{
+    #ten{
         min-height: 100%;
         height: auto;
+        line-height: 2;
         text-overflow: ellipsis;
         white-space: normal;
     }
 
-    .plans__buttons.five{
+    #five{
         min-height: 100%;
         height: auto;
         text-overflow: ellipsis;
