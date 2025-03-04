@@ -25,6 +25,7 @@
 }
 
 body{
+    overflow: hidden;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -782,7 +783,7 @@ input[type = 'checkbox']{
 
 @media (max-width: 470px) {
     .regions{
-        font-size: 4.5rem;
+        font-size: 4rem;
         margin-top: 160px;
     }
 
