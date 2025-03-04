@@ -392,7 +392,7 @@ input[type = 'checkbox']{
     position: relative;
     list-style: none;
     left: 50%;
-    line-height: 1;
+    line-height: -1;
     font-family: Degular-Regular;
     letter-spacing: -0.5px;
     font-size: 1.25rem;
@@ -773,7 +773,7 @@ input[type = 'checkbox']{
     }
 
     .plans__buttons button, input, label{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     #multiplans{
@@ -812,8 +812,15 @@ input[type = 'checkbox']{
         height: 100%;
     }
 
-    .plans__buttons button{
-        font-size: 1.2rem;
+    .plans__use li{
+        font-size: 0.7rem;
+    }
+
+    .plans.twenty{
+        min-height: 100%;
+        height: auto;
+        text-overflow: ellipsis;
+        white-space: normal;
     }
 
     .plans:hover .text__main{
@@ -836,13 +843,20 @@ input[type = 'checkbox']{
         font-size: 2rem;
     }
 
+    .plans__buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
     .plans__buttons input, label{
-        font-size: 1.3rem;
-        letter-spacing: 0.1px;;
+        font-size: 1rem;
+        letter-spacing: 0.1px;
     }
 
     .plans__buttons button{
-        font-size: 2rem;
+        font-size: 1rem;
         margin-bottom: 50px;
     }
 
