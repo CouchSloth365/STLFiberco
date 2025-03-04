@@ -853,6 +853,7 @@ input[type = 'checkbox']{
         display: flex;
         justify-content: center;
         padding: 10px;
+        z-index: 10;
     }
 
     .plans__buttons input, label{
