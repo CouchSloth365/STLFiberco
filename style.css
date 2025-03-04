@@ -820,26 +820,26 @@ input[type = 'checkbox']{
     .plans__buttons.twenty{
         min-height: 100%;
         height: auto;
-        text-overflow: ellipsis;
+        overflow-wrap: break-word;
         white-space: normal;
     }
 
     .plans__buttons.ten{
         min-height: 100%;
         height: auto;
-        text-overflow: ellipsis;
+        overflow-wrap: break-word;
         white-space: normal;
     }
 
     .plans__buttons.five{
         min-height: 100%;
         height: auto;
-        text-overflow: ellipsis;
+        overflow-wrap: break-word;
         white-space: normal;
     }
 
     .checkbox{
-        margin-bottom: 150px;
+        margin-bottom: 120px;
     }
 
     .plans:hover .text__main{
