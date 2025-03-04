@@ -799,6 +799,30 @@ input[type = 'checkbox']{
         font-size: 2rem;
     }
 
+    .plans{
+        display: flex;
+        position: relative;
+    }
+
+    .plans__use{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        left: 3%;
+        text-align: left;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .plans:hover .text__main{
+        opacity: 0.15;
+    }
+
+    .plans:hover .plans__use{
+        opacity: 1;
+    }
+
     .plans__header span{
         font-size: 1rem;
     }
