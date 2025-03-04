@@ -863,12 +863,16 @@ input[type = 'checkbox']{
         margin-bottom: 50px;
     }
 
+    .about{
+        margin-bottom: 50px
+    }
+
     .about h1{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .about h3{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 
     #form{
