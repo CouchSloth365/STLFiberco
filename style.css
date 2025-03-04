@@ -19,14 +19,12 @@
 }
 
 *{
-    overflow: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    padding-bottom: env(safe-area-inset-bottom);
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -818,7 +816,7 @@ input[type = 'checkbox']{
         font-size: 0.7rem;
     }
 
-    .plans__buttons{
+    .plans__use{
         min-height: 100%;
         height: auto;
         overflow-wrap: break-word;
@@ -853,7 +851,6 @@ input[type = 'checkbox']{
         display: flex;
         justify-content: center;
         padding: 10px;
-        z-index: 10;
     }
 
     .plans__buttons input, label{
