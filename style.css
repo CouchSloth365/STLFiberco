@@ -801,13 +801,12 @@ input[type = 'checkbox']{
 
     .plans{
         display: flex;
+        flex-direction: column;
         position: relative;
     }
 
     .plans__use{
         position: absolute;
-        display: flex;
-        flex-direction: column;
         justify-content: space-around;
         left: 3%;
         text-align: left;
@@ -820,7 +819,7 @@ input[type = 'checkbox']{
     }
 
     .plans:hover .plans__use{
-        opacity: 1;
+        opacity: 1;    
     }
 
     .plans__header span{
