@@ -816,21 +816,21 @@ input[type = 'checkbox']{
         font-size: 0.7rem;
     }
 
-    .plans.twenty{
+    .plans__buttons.twenty{
         min-height: 100%;
         height: auto;
         text-overflow: ellipsis;
         white-space: normal;
     }
 
-    .plans.ten{
+    .plans__buttons.ten{
         min-height: 100%;
         height: auto;
         text-overflow: ellipsis;
         white-space: normal;
     }
 
-    .plans.five{
+    .plans__buttons.five{
         min-height: 100%;
         height: auto;
         text-overflow: ellipsis;
@@ -838,7 +838,7 @@ input[type = 'checkbox']{
     }
 
     .checkbox{
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     .plans:hover .text__main{
@@ -889,7 +889,7 @@ input[type = 'checkbox']{
     #form{
         height: 30%;
         width: 100%;
-        margin-top: 70px;
+        margin-top: 30px;
     }
 
     .btncontainer{
